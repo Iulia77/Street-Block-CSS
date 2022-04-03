@@ -1,0 +1,95 @@
+<!--
+    Block, inline-block, inline
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STREET BLOCK | CSS</title>
+    <style>
+        body {
+            background-color: #223;
+
+        }
+        .street {
+            border: 1px dotted red;
+        }
+        .house {
+            /*background-color: #fff;*/
+            height: 150px;
+            width: 100px;
+            /*border: 1px solid green;*/
+            display: inline-block;
+        }
+        .building-tall {
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            background-color: bisque;
+
+        }
+        .cloud {
+            width: 50px;
+            
+            /*background-color: aquamarine;*/
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 20px;
+            padding-top: 50px;
+        }
+        .building-small {
+            display: inline-block;
+            
+        }
+        .house-roof {
+            height: 0px;
+            width: 0px;
+            /*background-color: red;*/
+            /*Triangle*/
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: brown;
+            border-bottom-width: 70px;
+        }
+        .house-wall{
+            background-color: lightblue;
+            height: 80px;
+        }
+        .house-window {
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown;
+
+            transform: translateX(33px) translateY(23px);
+        }
+    </style>
+</head>
+<body>
+    <div class="street">
+
+        <div class="house">
+            <div class="house-roof"></div>
+
+            <div class="house-wall">
+                <div class="house-window"></div>
+            </div>
+        </div>
+        <div class="building-tall">
+            
+
+        </div>
+        <div class="cloud">
+          <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/72/Status-weather-clouds-icon.png" alt="cloud">
+        </div>
+
+        <div class="building-small">SMALL BUILDING
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
